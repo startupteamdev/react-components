@@ -15,12 +15,11 @@ npm install --save @startupteam/components
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@startupteam/components'
-import '@startupteam/components/dist/index.css'
+import { TestDrawer } from '@startupteam/components'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <TestDrawer />
   }
 }
 ```

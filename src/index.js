@@ -1,6 +1,3 @@
-import React from 'react'
-import styles from './styles.module.css'
+import HelpDrawer from './components/help-drawer/help-drawer'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { HelpDrawer }
